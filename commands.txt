@@ -1,0 +1,18 @@
+minikube start --driver docker
+kubectl apply -f db-config.yaml
+kubectl apply -f db-secret.yaml
+kubectl apply -f mongo.yaml
+kubectl apply -f client.yaml
+
+kubectl get all
+kubectl get svc
+minikube ip
+
+kubectl delete Deployment mongo-deployment
+kubectl delete Deployment client-deployment
+kubectl delete Service client-service
+kubectl delete Service db-service
+kubectl delete ConfigMap db-config
+kubectl delete Secret db-secret
+
+minikube delete --all    
