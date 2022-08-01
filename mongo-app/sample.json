@@ -1,0 +1,27 @@
+{
+    "page": {
+        "content_type": "ht",
+        "friendly_content": {
+            "content_id": "HT201569",
+            "publish_date": "12202021",
+            "status": "unarchieved",
+            "title": "If your iPhone or iPod touch won&#x27;t charge",
+            "version": "1.110"
+        },
+        "in_house": "baker-ios optimize,optz,domain,pattern,campaign,skiplegalreview,ios",
+        "info_type": "issue-self solve",
+        "locale": "en-us",
+        "site_section": "kb",
+        "testandtarget": {
+            "throttle": "0.0"
+        },
+        "topics": "battery"
+    },
+    "product": {
+        "list": [
+            "acs::kb::productcategory::ios::ios",
+            "acs::kb::productcategory::ipod::ipod touch",
+            "acs::kb::productcategory::iphone::iphone"
+        ]
+    }
+}
