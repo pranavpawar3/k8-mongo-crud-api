@@ -15,4 +15,4 @@ kubectl delete Service db-service
 kubectl delete ConfigMap db-config
 kubectl delete Secret db-secret
 
-minikube delete --all    
+minikube delete --all
